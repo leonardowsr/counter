@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 20</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color:#f5b2b2;">
+
+  <main>
+    <div class="container">
+      <h1 style="color:#000000" class="numero">0</h1>
+      <p class="atualSpeed"></p>
+      <div class="options">
+        <button class="button-init-counter fix">
+          Iniciar contador
+        </button>
+        <button class="button-stop-counter fix">
+          Parar contador
+        </button>
+        <button class="button-clear-counter fix">
+          limpar contador
+        </button>
+        <div class="two-button">
+          <button class="button-down10-counter">
+            - 10
+          </button>
+          <button class="button-up10-counter">
+            + 10
+          </button>
+        </div>
+        <div class="two-button ">
+          <button class="button-downdown-counter controller">
+            -1 speed
+          </button>
+          <button class="button-upup-counter controller">
+            +1 speed
+          </button>
+        </div>
+      </div>
+      <div>
+        <div class="colorOptions">
+          <label for="color">Escolha a cor de fundo :)</label>
+          <input class="chooseColorBack w-25" type="color" name="color" id="color" value="#f5b2b2">
+          <button for="color" class="backgroundColor">Mudar</button>
+        </div>
+        <div class="colorOptions">
+          <label for="color2">Escolha a cor do número</label>
+          <input class="chooseColorCounter w-25" type="color" name="color" id="color2" value="#f5b2b2">
+          <button for="color" class="numberColor">Mudar</button>
+        </div>
+      </div>
+      <footer>
+        <p>Feito por leonardo | Github:</p>
+        <a href="https://github.com/Marshalldt1/quiz-animes" target="_blank"><img src="img/github.png" width="20px" alt=""></a>
+      </footer>
+    </div>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
